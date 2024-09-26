@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .sound{
     width:18rem;
