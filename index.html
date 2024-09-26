@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sound board</title>
+        <meta name="description" content="sound board">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+           
+            <button class="sound" onclick="playSound('applause')">applause</button>
+            <audio src="sound/Applause-Sound-5.mp3" id="applause"></audio>
+            <button class="sound" onclick="playSound('boo')">boo</button>
+            <audio src="sound/Booing1.mp3" id="boo"></audio>
+            <button class="sound" onclick="playSound('gasp')">gasp</button>
+            <audio src="sound/ooh-4-82986.mp3" id="gasp"></audio>
+            <button class="sound" onclick="playSound('tada')">tada</button>
+            <audio src="sound/Tada (1).mp3" id="tada"></audio>
+            <button class="sound" onclick="playSound('victory')"> victory</button>
+            <audio src="sound/Victory-Sound-Effect.mp3" id="victory"></audio>
+            <button class="sound" onclick="playSound('wrong')">wrong</button>
+            <audio src="sound/buzzer-or-wrong-answer-20582.mp3" id="wrong"></audio>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

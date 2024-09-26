@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+
+body{
+    background-color: rgb(161, 100, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.sound{
+    width:18rem;
+    height:8rem;
+    background-color: rebeccapurple;
+    color: white;
+    border:none ;
+    border-radius:5px;
+    font-size: 2rem;
+}
